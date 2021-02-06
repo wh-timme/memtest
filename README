@@ -1,0 +1,3 @@
+memtest is a DRAM bandwidth benchmark tool.
+
+modify "GB" and "max_thread" constants before "go build memtest.go". GB should be lesser than half of your actual DRAM memory.
